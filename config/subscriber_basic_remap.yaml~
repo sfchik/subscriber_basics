@@ -1,0 +1,19 @@
+
+#goal parameters
+goal_x: 30.0
+goal_y: 4.0
+goal_heading: 0.0
+goal_radius: 2.0
+goal_temporal_distance: 4.0  #distance of a temporal goal from robot
+goal_repeat_distance: 1.0     #similar goal should not be sent within this distances
+
+#social navigation parameters
+leader_angle_score: 1.0
+leader_distance_score: 1.0
+leader_speed_score: 1.0
+leader_angle_explore_max: deg(60.0)    #to avoid large deviation (in degree)
+leader_angle_shift_max: deg(20.0)    #to avoid large deviation (in degree)
+leader_distance_max: 5.0  #to avoid leader at too far (in meter)
+leader_speed_max: 1.5   #to avoid running leader (in m/s)
+leader_speed_min: 0.5   #to avoid really slow leader (in m/s)
+

@@ -1,0 +1,6 @@
+subscriber_pedsim_remap:
+ vel_x: -1.4
+ vel_y: 1.4
+ pos_x: 10.0
+ pos_y: 10.0
+ detect_radius: 8.0
