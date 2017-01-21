@@ -1,6 +1,9 @@
 subscriber_pedsim_remap:
- vel_x: -1.4
+ vel_x: -1.4 #just for creating fake gaussian 	
  vel_y: 1.4
  pos_x: 10.0
  pos_y: 10.0
- detect_radius: 8.0
+ detect_radius: 8.0  #only pedestrian within this radius should be remapped 
+ gaussian_type: false #false - normal, true - social
+ robot_pos_topic: /robot_position/corrected
+# person_track_topic: /pedsim/tracked_persons 
